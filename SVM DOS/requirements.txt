@@ -1,0 +1,12 @@
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+scikit-learn==1.6.1   # pinned: ood_detector.joblib was saved with 1.6.1
+joblib>=1.3
+pypdf>=4.0
+anthropic>=0.40        # optional: Claude answers in the chatbot (needs ANTHROPIC_API_KEY)
+google-genai>=1.0      # Gemini answers in the chatbot + weather helper (GEMINI_API_KEY or GOOGLE_API_KEY)
+pillow
+keras==3.13.2
+tensorflow-cpu>=2.18   # CPU-only build. Use "tensorflow" instead on macOS.
